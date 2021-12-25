@@ -9,7 +9,7 @@ app.use(cors());
 
 //bodyParser to accept the req's json data
 app.use(bodyParser.json());
-// IMPORT ROUTES
+// IMPORT ROUTES from the routes  files
 const postsRoute = require("./routes/posts");
 const authRoute =require("./routes/auth");
 
